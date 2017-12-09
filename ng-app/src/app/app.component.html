@@ -1,12 +1,15 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<div style="text-align:left">
   <h1>
     Welcome to {{ title }}!
   </h1>
 </div>
-<h2>Main menu: </h2>
-<ul>
-  <app-main-menu></app-main-menu>
-  <router-outlet></router-outlet>
-</ul>
+<div class="row">
+  <div class="col-sm-3 col-md-2">
+    <app-main-menu></app-main-menu>
+  </div>
+  <div class="col-sm-9 col-md-8">
+    <router-outlet></router-outlet>
+  </div>
+</div>
 
