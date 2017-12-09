@@ -13,8 +13,13 @@ import { CartListComponent } from './cart/cart-list/cart-list.component';
 import { FileNotFoundComponent } from './file-not-found/file-not-found/file-not-found.component';
 import { LoginComponent } from './login/login/login.component';
 import { ConfirmPageComponent } from './confirm-page/confirm-page/confirm-page.component';
-import { TransectionComponent } from './transection/transection/transection.component';
+import { TransactionComponent } from './transection/transection/transaction.component';
 import { RegisterComponent } from './register/register/register.component';
+import { UserComponent } from './user/user/user.component';
+import { UserAddComponent } from './user/user-add/user-add.component';
+import { UserDeleteComponent } from './user/user-delete/user-delete.component';
+import {AppRoutingModule} from "./app-routing-module";
+import { ServiceComponent } from './service/service/service.component';
 
 
 @NgModule({
@@ -30,11 +35,15 @@ import { RegisterComponent } from './register/register/register.component';
     FileNotFoundComponent,
     LoginComponent,
     ConfirmPageComponent,
-    TransectionComponent,
-    RegisterComponent
+    TransactionComponent,
+    RegisterComponent,
+    UserComponent,
+    UserAddComponent,
+    UserDeleteComponent,
+    ServiceComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

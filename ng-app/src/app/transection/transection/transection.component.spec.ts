@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TransectionComponent } from './transection.component';
+import { TransectionComponent } from './transaction.component';
 
 describe('TransectionComponent', () => {
   let component: TransectionComponent;
