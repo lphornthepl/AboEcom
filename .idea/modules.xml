@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AboEcom.iml" filepath="$PROJECT_DIR$/.idea/modules/AboEcom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AboEcom_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AboEcom_main.iml" group="AboEcom" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AboEcom_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AboEcom_test.iml" group="AboEcom" />
+    </modules>
+  </component>
+</project>
